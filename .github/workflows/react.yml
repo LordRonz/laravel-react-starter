@@ -9,7 +9,7 @@ on:
 
 jobs:
   react-tests:
-    name: Run ESLint
+    name: Run mix development
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
