@@ -7,7 +7,9 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "format": "prettier -w .",
+        "format:check": "prettier -c ."
     },
     "devDependencies": {
         "@babel/preset-react": "^7.16.7",
@@ -22,6 +24,7 @@
         "lodash": "^4.17.19",
         "postcss": "^8.2.13",
         "postcss-import": "^14.0.1",
+        "prettier": "^2.5.1",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "tailwindcss": "^3.0.0"
