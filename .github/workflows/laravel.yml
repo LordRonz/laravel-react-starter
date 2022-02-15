@@ -31,9 +31,9 @@ jobs:
         touch database/database.sqlite
     - name: Prepare yarn
       uses: actions/setup-node@v2
-        with:
-          node-version: '14'
-          cache: 'yarn'
+      with:
+        node-version: '14'
+        cache: 'yarn'
     - name: Build prod
       run: |
         yarn
