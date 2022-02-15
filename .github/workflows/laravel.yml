@@ -29,6 +29,15 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
+    - name: Prepare yarn
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+        cache: 'yarn'
+    - name: Build prod
+      run: |
+        yarn
+        yarn prod
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
