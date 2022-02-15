@@ -1,0 +1,20 @@
+{
+    "singleQuote": true,
+    "tabWidth": 4,
+    "semi": true,
+    "jsxSingleQuote": true,
+    "overrides": [
+        {
+            "files": "*.{yml, yaml}",
+            "options": {
+                "tabWidth": 2
+            }
+        },
+        {
+            "files": "docker-compose.yml",
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}
