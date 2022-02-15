@@ -6,7 +6,7 @@
         "watch": "mix watch",
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
-        "prod": "npm run production",
+        "prod": "yarn production",
         "production": "mix --production",
         "format": "prettier -w .",
         "format:check": "prettier -c ."
@@ -17,6 +17,7 @@
         "@inertiajs/inertia": "^0.10.0",
         "@inertiajs/inertia-react": "^0.7.0",
         "@inertiajs/progress": "^0.2.6",
+        "@prettier/plugin-php": "^0.18.1",
         "@tailwindcss/forms": "^0.4.0",
         "autoprefixer": "^10.2.4",
         "axios": "^0.25",
