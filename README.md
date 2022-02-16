@@ -8,7 +8,6 @@
 </p>
 
 ![GitHub branch checks state](https://img.shields.io/github/checks-status/LordRonz/laravel-react-starter/main)
-
 [![repo size](https://img.shields.io/github/repo-size/LordRonz/laravel-react-starter)](https://github.com/LordRonz/laravel-react-starter)
 
 ## About Laravel
