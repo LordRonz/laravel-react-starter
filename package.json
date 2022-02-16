@@ -23,7 +23,7 @@
         "autoprefixer": "^10.2.4",
         "axios": "^0.26",
         "husky": "^7.0.0",
-        "laravel-mix": "^6.0.6",
+        "laravel-mix": "^6.0.42",
         "lint-staged": "^12.3.4",
         "lodash": "^4.17.19",
         "postcss": "^8.2.13",
