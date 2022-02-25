@@ -30,7 +30,7 @@ jobs:
         mkdir -p database
         touch database/database.sqlite
     - name: Prepare yarn
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '14'
         cache: 'yarn'
