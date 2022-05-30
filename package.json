@@ -14,7 +14,7 @@
     },
     "devDependencies": {
         "@babel/preset-react": "^7.16.7",
-        "@headlessui/react": "^1.6.3",
+        "@headlessui/react": "^1.6.4",
         "@inertiajs/inertia": "^0.10.0",
         "@inertiajs/inertia-react": "^0.7.0",
         "@inertiajs/progress": "^0.2.6",
